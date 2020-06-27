@@ -1,0 +1,22 @@
+<routes>
+<route id="right1" edges=" w1i w2i w3i e3o" />
+<route id="right2" edges=" w4i w5i w6i e6o" />
+<route id="left1" edges=" e3i e2i e1i w1o" />
+<route id="left2" edges=" e6i e5i e4i w4o" />
+<route id="down1" edges=" n1i n4i s4o" />
+<route id="down2" edges=" n2i n5i s5o" />
+<route id="down3" edges=" n3i n6i s6o" />
+<route id="up1" edges=" s4i s1i n1o" />
+<route id="up2" edges=" s5i s2i n2o" />
+<route id="up3" edges=" s6i s3i n3o" />
+<flow id="WE1" begin="0" end="3600" number="903" from="w1i" to="e3o" color="99,129,122" />
+<flow id="EW1" begin="0" end="3600" number="567" from="e3i" to="w1o" color="222,211,42" />
+<flow id="WE2" begin="0" end="3600" number="864" from="w4i" to="e6o" color="224,107,159" />
+<flow id="EW2" begin="0" end="3600" number="899" from="e6i" to="w4o" color="86,110,124" />
+<flow id="NS1" begin="0" end="3600" number="904" from="n1i" to="s4o" color="96,253,167" />
+<flow id="SN1" begin="0" end="3600" number="327" from="s4i" to="n1o" color="58,201,105" />
+<flow id="NS2" begin="0" end="3600" number="293" from="n2i" to="s5o" color="217,157,163" />
+<flow id="SN2" begin="0" end="3600" number="459" from="s5i" to="n2o" color="2,192,39" />
+<flow id="NS3" begin="0" end="3600" number="710" from="n3i" to="s6o" color="198,205,83" />
+<flow id="SN3" begin="0" end="3600" number="473" from="s6i" to="n3o" color="50,227,179" />
+</routes>
